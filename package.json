@@ -1,0 +1,30 @@
+{
+  "name": "Boiler_RWSRe",
+  "version": "1.0.0",
+  "description": "Boilerplate with React, Webpack, SCSS and CSS Reset all setup",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.5.3",
+    "normalize.css": "^8.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "sass-loader": "^6.0.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "babel-preset-react-app": "^9.0.0",
+    "css-loader": "^5.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.0"
+  }
+}
